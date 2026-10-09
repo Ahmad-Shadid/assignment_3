@@ -11,4 +11,7 @@ print(type(99.5))
 print(type("198.51.100.7"))
 #this will be an intiger , because the code doesnt read the underscore , its just there so its easier for us (humans) to read it
 print(type(1_000))
-print(int(-3.5))
+print(int("443"), type(int("443")))
+print(str(8080), type(str(8080)))
+#2.5 is already a float , so i dont really get the point of this but sure , why not
+print(float(2.5), type(float(2.5)))
